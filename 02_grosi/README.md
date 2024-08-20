@@ -18,11 +18,11 @@ Vielleicht hilft dir der folgenden Python-Code dabei:
 ```python
 import random
 
-zufallszahl = random.randint(1, 10)
+zufallszahl = random.randrange(1, 10)
 print(zufallszahl)
 ```
 
-_Tipp 2:_ Überleg dir, welche Teile des Programms immer und immer wieder passieren. All diese Teile sollten innerhalb des `while`-Loops sein.
+_Tipp 2:_ Überlege dir, welche Teile des Programms immer und immer wieder passieren. All diese Teile sollten innerhalb des `while`-Loops sein.
 
 ## Erweiterung
 
