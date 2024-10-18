@@ -13,11 +13,21 @@ Falls die Person keine Zahl eingibt, wird die Frage wiederholt:
 > Ungültige Eingabe, versuch es noch einmal.
 > Wie alt bist du? ...
 
+_Tipp:_ Benutze zur Überprüfung, ob ein String nur Ziffern enthält, die Funktion `.isdigit()`.
+
+```py
+>>> "abc".isdigit()
+False
+>>> "123".isdigit()
+True
+```
+
 ### Zusatzaufgabe
 
 Kreiere nun mit dem oben erstellten Code eine Funktion `input_int`, welche die Frage so lange wiederholt, bis der:ie Benutzer:in eine korrekte Zahl eingegeben hat.
 
 Die Funktion sollte folgendermassen benutzt werden können:
+
 ```py
 age = input_int("Wie alt bist du? ")
 print(f"Dann wirst du nächstes Jahr {age + 1}")
@@ -25,7 +35,7 @@ print(f"Dann wirst du nächstes Jahr {age + 1}")
 
 ### Zusatzaufgabe 2 (freiwillig)
 
-Kreiere deine eigene Funktion `isdecimal` mit dem gleichen Verhalten von Pythons `isdecimal` für Strings.
+Kreiere deine eigene Funktion `isdigit` mit dem gleichen Verhalten von Pythons `isdigit` für Strings.
 
 ### Zusatzaufgabe 3
 
