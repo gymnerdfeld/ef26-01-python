@@ -45,3 +45,7 @@ _Tipp:_ In Python kann man Teile aus einen Wort "ausschneiden":
 wort[2:-4]
 'chens'
 ```
+
+## Zusatzaufgabe: Fibonacci
+
+Folge den Anweisungen in der Datei `fibonacci.py`.
