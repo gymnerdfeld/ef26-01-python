@@ -8,3 +8,4 @@
 4. [Hangman](04_hangman)
 5. [Wordle](05_wordle)
 6. [Rekursion](06_rekursion)
+7. [Sortieralgorithmen](07_sort/)
