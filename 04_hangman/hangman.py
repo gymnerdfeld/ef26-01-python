@@ -1,7 +1,9 @@
-import random, os
+import random, os, pathlib
+
+word_file = pathlib.Path(__file__).parent / "words.txt"
 
 words = []
-with open("words.txt") as f:
+with word_file.open() as f:
     for line in f:
         line = line.strip()
         if line != "":
